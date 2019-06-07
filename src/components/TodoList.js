@@ -65,7 +65,7 @@ class TodoList extends Component {
               <div className="droppable"
                   onDragOver={(event)=>this.onDragOver(event)}
                     onDrop={(event)=>this.onDrop(event, "Done")}>
-                <span className="group-header" style={{color:"green", fontSize: "bold"}}>Done</span>
+                <span className="group-header">Done</span>
                 {tasks.Done}
               </div>	        
             </div>
